@@ -1,0 +1,349 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.loop{
+    
+    display: flex;
+    background-color: #5a0302;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0px;
+    padding: 15px 0px;
+    text-transform: uppercase;
+    
+}
+.angry{
+    position: absolute;
+    right: 10px;
+}
+.angry a{
+    text-decoration: none;
+    color: white;
+}
+.gift{
+    padding-left: 10px;   
+}
+.aool a{
+    text-decoration: none;
+    color: #000000;
+}
+li{
+    font-size: 20px;
+    padding: 50px 0px;
+}
+.power{
+    display: flex;
+}
+.power li{
+    list-style: none;
+}
+#bool{
+    left: 20px;
+    position: fixed;
+}
+#dool{
+    right: 20px;
+    position: fixed;
+}
+#eool{
+    left: 20px;
+    position: fixed;
+}
+#hool{
+    right: 20px;
+    position: fixed;
+}
+.head{
+    margin-bottom: 0px;
+    color: #920301;
+}
+
+.hard{
+    margin-top: 195px;
+    color: #920301;
+}
+.para{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-size: 35px;
+}
+.sear{
+    color: rgb(0, 0, 0);
+    border: 2px #000000 solid;
+    border-radius: 20px;
+    padding: 10px;
+    background: none;
+    text-align: center;
+    font-size: 12px;
+    outline: none;
+}
+.contain{
+    position: relative;
+}
+.contain img{
+    max-width: 100%;
+    height: auto;
+}
+.option{
+    position: absolute;
+    top: 0px;
+    left: 43%;
+    text-align: center;
+}
+.present{
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    text-align: center; 
+}
+::-webkit-input-placeholder{
+    color: rgb(0, 0, 0);
+    opacity: 50%;
+}
+.har{
+    color: white;
+}
+.hea{
+    color: white;
+}
+.sea{
+    color: rgb(255, 255, 255);
+    border: 2px #ffffff solid;
+    border-radius: 20px;
+    padding: 10px;
+    background: none;
+    text-align: center;
+    font-size: 12px;
+    outline: none;
+}
+.pard{
+    color: #fdcd5d;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-size: 35px;
+}
+.hand{
+    padding-top: 35px;
+    color: #f57200;
+}
+.reach{
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    margin-left: 26px;
+    border: 2px dashed black;
+    border-radius: 10px;
+    background-color: #4b4444;
+}
+span{
+    cursor: pointer;
+}
+.dead{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.salary{
+    font-size: 13px;
+    color: white;
+    padding-left: 5px;
+}
+.mick{
+    margin-top: 50px;
+}
+.income{
+    padding-left: 5px;
+    border-bottom: 2px solid #610202;
+    color: white;
+}
+#seat{
+    background-color: #564d45;
+    padding-top: 37px;
+}
+#merd{
+    position: relative;
+    top: -37px;
+}
+#cost{
+    font-size: 23px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#price{
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.think{
+    text-align: center;
+}
+#fridge{
+    background-color: black;
+    color: white;
+}
+.wheat{
+    display: inline-block;
+    width: 16%;
+}
+.earn{
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 15px 0px;
+    
+}
+#gain{
+    color: white;
+    text-align: center;
+    background-color: #4d0001;
+}
+.red{
+    position: relative;
+    top: -35px;
+}
+.blue{
+    position: relative;
+    top: -35px;
+}
+#music a{
+    text-decoration: none;
+    color: white;
+}
+.pair{
+    background-color:black;
+    padding: 20px 0px;
+    padding-left: 20px;
+    color: white;
+}
+.gather{
+    opacity: 50%;
+    padding-right: 30px;
+}
+.fairy{
+    text-align: center;
+}
+#just{
+    margin: 0px 500px;
+    margin-bottom: 35px;
+}
+.away{
+    width: 30%;
+    color: #500101;
+    outline: none;
+    text-align: center;
+    padding: 10px;
+    background: white;
+    border-bottom: 5px solid #420303;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+#like{
+    text-transform: uppercase;
+    margin-top: 60px;
+    font-size: 40px;
+}
+.bravo{
+    margin-top: 35px;
+}
+.thing{
+    padding: 9px 70px;
+    background: none;
+    border: 2px solid #580303;
+    border-radius: 35px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.body{
+    margin-top: 35px;
+}
+#year{
+    padding: 9px 40px;
+    background: none;
+    border: 2px solid #580303;
+    border-radius: 35px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+@media (max-width:978px){
+    .mick{
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-evenly;
+    }
+    .reach{
+        margin-left: 0px;
+    }
+}
+@media (max-width:884px){
+    .reach{
+        width: 30%;
+        height: 250px;
+    }
+    .income{
+        margin: 0px;
+    }
+    #seat{
+        padding-top: 0px;
+    }
+    #merd{
+        top: 0px;
+    }
+}
+@media (max-width:858px){
+    .option{
+        left: 40%;
+    }
+}
+@media (max-width:782px){
+
+    .wheat .earn span{
+        font-size: 12px;
+    }
+}
+@media (max-width:768px){
+    .reach{
+        height: 255px;
+    }
+}
+@media (max-width:712px){
+    .mick{
+        flex-wrap: wrap;
+    }
+    .reach{
+        width: 100%;
+        margin: 25px;
+        height: 100%;
+    }
+}
+@media (max-width:634px){
+    .option{
+        left: 35%;
+    }
+    .present{
+        left: 33%;
+    }
+    .wheat .earn span{
+        font-size: 12px;
+    }
+}
+@media (max-width:556px){
+    .hard{
+        margin-top: 75px;
+    }
+    .option{
+        left: 30%;
+    }
+}
+@media (max-width:554px){
+    .wheat .earn span{
+        font-size: 10px;
+    }
+    
+}
+@media (max-width:508px){
+    .wheat{
+        width: 15%;
+    }
+}
